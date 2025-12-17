@@ -159,6 +159,13 @@ export const PROJECTS = [
 
 export const CODENAME = "SynthOS v0.5";
 
+export const DOMAIN = "heyimwalid.dev";
+
+export const PERSONAL_INFO = {
+  name: "Walid Mendi",
+  jobTitles: ["CTO", "Senior Solidity Engineer", "Full Stack Developer"],
+};
+
 // Generate HTML content for project notepad windows
 export const getProjectContent = (projectId: number): string => {
   const project = PROJECTS.find((p) => p.id === projectId);
