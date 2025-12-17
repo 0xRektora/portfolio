@@ -68,7 +68,7 @@ export const INITIAL_WINDOWS: WindowData[] = [
     isMinimized: false,
     isMaximized: false,
     zIndex: 10,
-    position: { x: 50, y: 50 },
+    position: { x: 550, y: 250 },
     size: { width: 640, height: 480 },
     content: "intro",
   },
