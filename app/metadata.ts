@@ -99,8 +99,8 @@ export const metadata: Metadata = {
   category: "Technology",
   classification: "Portfolio",
   icons: {
-    icon: "/favicon.ico",
-    apple: "/favicon.ico",
+    icon: "/favicon.svg",
+    apple: "/favicon.svg",
   },
   metadataBase: new URL(baseUrl),
 };
