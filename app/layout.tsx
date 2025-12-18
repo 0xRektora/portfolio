@@ -3,6 +3,7 @@ import "./globals.css";
 import Script from "next/script";
 import { VT323 } from "next/font/google";
 import { metadata, structuredData } from "./metadata";
+import { Analytics } from "@vercel/analytics/next";
 
 const vt323 = VT323({
   weight: "400",
@@ -26,6 +27,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
         {children}
+        <Analytics />
       </body>
     </html>
   );
